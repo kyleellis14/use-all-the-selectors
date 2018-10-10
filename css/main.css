@@ -3,9 +3,33 @@ body {
 }
 
 header, footer {
-  font-size: 1.5 rem;
+  font-size: 1.5rem;
 }
 
 nav ul {
   font-family: sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.wrapper {
+  background-color: #eee8d5;
+}
+
+#contents {
+  color: #93a1a1;
+}
+
+#favs {
+  color: #93a1a1;
+}
+
+#facts {
+  color: #93a1a1;
+}
+
+#types {
+  color: #93a1a1;
 }
