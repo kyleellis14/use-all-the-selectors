@@ -33,3 +33,43 @@ h1 {
 #types {
   color: #93a1a1;
 }
+
+.logo {
+  text-transform: uppercase;
+}
+
+div.dfn {
+  background-color: #b58900;
+}
+
+div.dfn p + strong {
+  color: #fff;
+}
+
+ol li:first-child {
+  color: #719e47;
+}
+
+ol li:last-child {
+  color: #2aa198;
+}
+
+.types li:nth-child(odd) {
+  background-color: #657ba3;
+}
+
+.types li:nth-child(even) {
+  background-color: #586e75;
+}
+
+.types li:nth-child(3n) {
+  background-color: #d04b16;
+}
+
+a:not(.no-highlight) {
+  background-color: #719e07;
+}
+
+[rel="external"] {
+  background-color: #2694d8;
+}
